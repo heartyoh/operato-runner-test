@@ -7,7 +7,7 @@ def main(input: dict) -> dict:
         dict: Output/result data.
     """
     # 예시 처리
-    result = {"message": f"Hello, {input.get('name', 'world')}!"}
+    result = {"message": f"안녕하세요, {input.get('name', 'world')}!"}
     return result
 
 if __name__ == "__main__":
